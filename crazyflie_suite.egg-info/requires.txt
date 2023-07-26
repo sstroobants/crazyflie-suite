@@ -1,0 +1,7 @@
+cflib
+numpy
+pandas
+matplotlib
+jupyterlab
+pyyaml
+pre-commit

@@ -1,0 +1,99 @@
+{
+    "gyros":{
+        "name": "gyros",
+        "type": "CF",
+        "period": 10,
+        "variables": ["gyro.x",
+                      "gyro.y",
+                      "gyro.z"],
+        "headers": ["gyroX", "gyroY", "gyroZ"]
+    },
+
+    "attitude":{
+        "name": "attitude",
+        "type": "CF",
+        "period": 10,
+        "variables": ["stabilizer.roll",
+                      "stabilizer.pitch",
+                      "stabilizer.yaw"],
+        "headers": ["roll", "pitch", "yaw"]
+    },
+
+    "kalman":{
+        "name": "kalman",
+        "type": "CF",
+        "period": 10,
+        "variables": ["kalman.stateX",
+                      "kalman.stateY",
+                      "kalman.stateZ"],
+        "headers": ["kalX", "kalY", "kalZ"]
+    },    
+
+    "acc":{
+        "name": "acc",
+        "type": "CF",
+        "period": 10,
+        "variables": ["acc.x",
+                      "acc.y",
+                      "acc.z"],
+        "headers": ["accX", "accY", "accZ"]
+    },
+
+    "state":{
+        "name": "state",
+        "type": "CF",
+        "period": 10,
+        "variables": ["stateEstimate.x",
+                      "stateEstimate.y",
+                      "stateEstimate.z"],
+        "headers": ["stateX", "stateY", "stateZ"]
+    },
+
+    "bat_volt":{
+        "name": "bat_volt",
+        "type": "CF",
+        "period": 10,
+        "variables": ["pm.vbat"],
+        "headers": ["vbat"]
+    },
+
+    "otpos":{
+        "name": "otpos",
+        "type": "EXT",
+        "period": 10,
+        "variables": ["otX",
+                      "otY",
+                      "otZ"],
+        "headers": ["otX", "otY", "otZ"]
+    },
+    
+    "otatt":{
+        "name": "otatt",
+        "type": "EXT",
+        "period": 10,
+        "variables": ["otRoll",
+                      "otPitch",
+                      "otYaw"],
+        "headers": ["otRoll", "otPitch", "otYaw"]
+    },
+
+    "controller":{
+        "name": "controller",
+        "type": "CF",
+        "period": 10,
+        "variables": ["controller.cmd_roll", 
+                      "controller.cmd_pitch",
+                      "controller.cmd_yaw"],
+        "headers": ["cmd_roll", "cmd_pitch", "cmd_yaw"]
+    },
+
+    "ctrltarget":{
+        "name": "ctrltarget",
+        "type": "CF",
+        "period": 10, 
+        "variables": ["ctrltarget.x",
+                      "ctrltarget.y",
+                      "ctrltarget.z"],
+        "headers": ["target_x", "target_y", "target_z"]
+    }
+}

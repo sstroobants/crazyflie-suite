@@ -1,0 +1,15 @@
+README.md
+setup.py
+crazyflie_suite.egg-info/PKG-INFO
+crazyflie_suite.egg-info/SOURCES.txt
+crazyflie_suite.egg-info/dependency_links.txt
+crazyflie_suite.egg-info/requires.txt
+crazyflie_suite.egg-info/top_level.txt
+flight/FileLogger.py
+flight/NatNetClient.py
+flight/__init__.py
+flight/log_flight.py
+flight/optitrack_test.py
+flight/prepared_trajectories.py
+flight/trajectories.py
+flight/utils.py

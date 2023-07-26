@@ -1,0 +1,3 @@
+test 2 en 4 waren gefaald.
+
+totaal 12 tests (bij CF data is de log18 de laatste test, dus teruglopend vanaf daar)
